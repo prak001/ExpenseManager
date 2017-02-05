@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">expenseManager</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="drawer_open">Open Navigation</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">hellostring</string>
+    <string name="hello_blank_fragment">HELLO</string>
+    <string-array name="drawerItems">
+        <item>Change Details</item>
+        <item>Change/set PIN</item>
+        <item>Show transactions</item>
+        <item>Notify Me</item>
+        <item>About</item>
+    </string-array>
+    <string name="title_activity_inbuilt_darwer">inbuiltDarwer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

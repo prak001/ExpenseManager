@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.welcome.expensemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="expenseManager"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CreditDebitActivity" />
+        <activity android:name=".DataShow" />
+        <activity android:name=".FillDetailActivity" />
+        <activity android:name=".DBshowActivity" />
+        <activity android:name=".LViewActivity" />
+        <activity android:name=".cDrawer" />
+        <activity android:name=".AboutDialogActivity"/>
+        <activity android:name=".changeDetailActivity" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".passwordActivity"></activity>
+    </application>
+
+</manifest>
